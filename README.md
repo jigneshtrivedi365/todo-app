@@ -70,3 +70,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 1. composer install
 2. cp .env.example .env
 3. php artisan migreate
+4. php artisan serve
