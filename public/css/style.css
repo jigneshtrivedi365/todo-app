@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.add-task {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.add-task input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.add-task button.add-button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.add-task button.add-button:hover {
+    background-color: #357ae8;
+}
+
+.task-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: 263px;
+    height: auto;
+    overflow: auto;
+}
+
+.task-list li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.task-buttons button {
+    background-color: #fff;
+    border: 1px solid #4285f4;
+    color: #4285f4;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.task-buttons button:hover {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.task-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.task-footer p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.task-footer button.clear-all-button {
+    background-color: #ff4c4c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.task-footer button.clear-all-button:hover {
+    background-color: #e04343;
+}
+.error-el{
+    color: #e04343;
+}
+.task-buttons button.delete {
+    background-color: #fff;
+    border: 1px solid #e04343;
+    color: #e04343;
+}
